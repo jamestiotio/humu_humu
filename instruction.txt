@@ -1,5 +1,5 @@
 There are four files in the zip file.
-evalResult.py	The evaluation python script to calculate precision, recall and F score.
+eval_result.py	The evaluation python script to calculate precision, recall and F score.
 dev.out		Sample gold file (2 columns, each row: Word Tag)
 dev.prediction	Sample prediction file (same format with dev.out)
 Instruction	Instruction of the script.
@@ -8,12 +8,12 @@ Instruction	Instruction of the script.
 
 Instruction:
 
-1. Extract the zip file and enter the extracted directory¡£
-2. Run "python evalResult.py dev.out dev.prediction". Suppose dev.out is the gold file and dev.prediction is the output you predict. The two arguments after evalResults.py are gold file name and prediction file name.
+1. Extract the zip file and enter the extracted directoryï¿½ï¿½
+2. Run "python eval_result.py dev.out dev.prediction". Suppose dev.out is the gold file and dev.prediction is the output you predict. The two arguments after eval_result.py are gold file name and prediction file name.
 
 **** Please make sure you have installed Python 3.4 or above.
-**** On Windows, you can run "python evalResult.py dev.out dev.prediction"
-**** On Linux or Mac, you need to run "python3 evalResult.py dev.out dev.prediction"
+**** On Windows, you can run "python eval_result.py dev.out dev.prediction"
+**** On Linux or Mac, you need to run "python3 eval_result.py dev.out dev.prediction"
 
 
 
@@ -25,7 +25,7 @@ Gold:  		B+     I+    O   O   O        O  B0  O  O
 Prediction	B+     I-    I+  O   O        O  B0  O  B+
 
 #Entity in Gold 	= 2 (Donald Trump, USA)
-#Entity in Prediction	= 5 (Donald£¬ Trump, won, USA, 2016)
+#Entity in Prediction	= 5 (Donaldï¿½ï¿½ Trump, won, USA, 2016)
 	***** If B I or I I have different sentiment, they are considered as two entities. As the example above, B+ I- are considered as two different entities; I- I+ are considered as two different entities.
 
 #Correctly predicted Entity = 1 (USA)   
