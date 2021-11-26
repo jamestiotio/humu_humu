@@ -149,7 +149,7 @@ def print_result(evalTarget, num_correct, prec, rec):
         f = 0
     else:
         f = 2 * prec * rec / (prec + rec)
-    print("#Correct", evalTarget, ":", num_correct)
+    print("# of Correct", evalTarget + ":", num_correct)
     print(evalTarget, "precision: %.4f" % (prec))
     print(evalTarget, "recall: %.4f" % (rec))
     print(evalTarget, "F: %.4f" % (f))
