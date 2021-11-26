@@ -150,12 +150,12 @@ def print_result(evalTarget, num_correct, prec, rec):
     else:
         f = 2 * prec * rec / (prec + rec)
     print("#Correct", evalTarget, ":", num_correct)
-    print(evalTarget, " precision: %.4f" % (prec))
-    print(evalTarget, " recall: %.4f" % (rec))
-    print(evalTarget, " F: %.4f" % (f))
+    print(evalTarget, "precision: %.4f" % (prec))
+    print(evalTarget, "recall: %.4f" % (rec))
+    print(evalTarget, "F: %.4f" % (f))
 
 
-# Compare results bewteen gold data and prediction data
+# Compare results between gold data and prediction data
 def compare_observed_to_predicted(observed, predicted):
     correct_sentiment = 0
     correct_entity = 0
@@ -214,8 +214,8 @@ def compare_observed_to_predicted(observed, predicted):
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         print("Please make sure you have installed Python 3.4 or above!")
-        print("Usage on Windows:  python eval_result.py gold predictions")
-        print("Usage on Linux/Mac:  python3 eval_result.py gold predictions")
+        print("Usage on Windows: python eval_result.py gold predictions")
+        print("Usage on Linux/Mac: python3 eval_result.py gold predictions")
         sys.exit()
 
     gold = open(sys.argv[1], "r", encoding="UTF-8")
