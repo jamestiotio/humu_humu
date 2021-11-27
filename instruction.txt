@@ -25,7 +25,7 @@ Gold:  		B+     I+    O   O   O        O  B0  O  O
 Prediction	B+     I-    I+  O   O        O  B0  O  B+
 
 #Entity in Gold 	= 2 (Donald Trump, USA)
-#Entity in Prediction	= 5 (Donald�� Trump, won, USA, 2016)
+#Entity in Prediction	= 5 (Donald, Trump, won, USA, 2016)
 	***** If B I or I I have different sentiment, they are considered as two entities. As the example above, B+ I- are considered as two different entities; I- I+ are considered as two different entities.
 
 #Correctly predicted Entity = 1 (USA)   
