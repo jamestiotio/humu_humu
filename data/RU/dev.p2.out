@@ -754,7 +754,7 @@
 внутри O
 и O
 мороженым O
-. O
+. B-neutral
 
 сначала O
 принесли O
@@ -2366,19 +2366,19 @@ Albertone I-negative
 музыка B-positive
 ! O
 
-Расстроило B-neutral
-отсутствие O
-мидий O
+Расстроило B-positive
+отсутствие B-neutral
+мидий I-negative
 и O
-несколько O
-пересушенные O
-сухарики O
-, O
-которые O
-готовили O
-довольно O
-долго O
-. O
+несколько B-negative
+пересушенные I-negative
+сухарики I-negative
+, B-neutral
+которые B-neutral
+готовили B-positive
+довольно I-neutral
+долго I-negative
+. B-neutral
 
 Часто O
 приходим O
@@ -2935,30 +2935,30 @@ Land I-neutral
 ) O
 ) O
 
-Последним B-neutral
-блюдом I-neutral
-была O
-телятина O
-и O
-к O
-ней O
-картофельная O
+Последним O
+блюдом B-negative
+была I-negative
+телятина B-positive
+и I-negative
+к I-negative
+ней I-positive
+картофельная B-neutral
 котлета O
-, O
-телятина O
-тоже O
-отдавала O
-уксусом O
-в O
-картофельной O
+, I-negative
+телятина I-neutral
+тоже I-neutral
+отдавала B-positive
+уксусом I-positive
+в B-neutral
+картофельной B-negative
 котлете O
-оказался O
-волос O
-или O
+оказался I-negative
+волос I-negative
+или B-neutral
 животного O
-или O
-человека O
-. O
+или B-negative
+человека I-negative
+. B-neutral
 
 Был O
 в O
@@ -5422,11 +5422,11 @@ S O
 шашлыка B-negative
 из I-negative
 баранины I-negative
-на O
-косточке O
-! O
-! O
-! O
+на I-negative
+косточке I-neutral
+! B-positive
+! I-positive
+! I-neutral
 
 В O
 общем O
@@ -5651,13 +5651,13 @@ S O
 . O
 
 Прекрасное O
-место B-neutral
-, I-neutral
-располагающее I-neutral
-к I-neutral
-хорошему O
-отдыху O
-. O
+место B-positive
+, O
+располагающее B-negative
+к I-negative
+хорошему I-neutral
+отдыху B-negative
+. B-neutral
 
 Еду O
 принесли O
