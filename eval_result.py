@@ -196,8 +196,8 @@ def compare_observed_to_predicted(observed, predicted):
                         correct_sentiment += 1
 
     print()
-    print("#Entity in gold data: %d" % (total_observed))
-    print("#Entity in prediction: %d" % (total_predicted))
+    print("# Entity in gold data: %d" % (total_observed))
+    print("# Entity in prediction: %d" % (total_predicted))
     print()
 
     prec = correct_entity / total_predicted

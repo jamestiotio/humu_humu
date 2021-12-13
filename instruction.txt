@@ -8,7 +8,7 @@ Instruction	Instruction of the script.
 
 Instruction:
 
-1. Extract the zip file and enter the extracted directory��
+1. Extract the zip file and enter the extracted directory.
 2. Run "python eval_result.py dev.out dev.prediction". Suppose dev.out is the gold file and dev.prediction is the output you predict. The two arguments after eval_result.py are gold file name and prediction file name.
 
 **** Please make sure you have installed Python 3.4 or above.
